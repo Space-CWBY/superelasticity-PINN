@@ -1,18 +1,37 @@
 # superelasticity-PINN
 
-This repository contains a cleaned version of the final research code used to develop a physics-informed neural network model for superelastic constitutive behavior. The code is provided for transparency and reproducibility of the main numerical results.
-
 ## Project overview
+- Python source code for training and evaluating a physics-informed neural network model for superelastic constitutive behavior  
+- Boundary condition files for constructing physics-informed constraints on ξ and εₚ
 
-- Python source code for training and evaluating the superelasticity model  
-- Example processed data in CSV format
+
+This repository provides a cleaned version of the final research code.
 
 ## Model
-
-
+```
 /model
+```
+
+Contains the core implementation of the model:
+
+- scripts to train the network on processed stress–strain data  
+- evaluation scripts for generating model predictions  
 
 
-## Analysis
+## Data
+```
+/data
+```
 
-/analysis
+Contains boundary condition files in .csv format to:
+
+- build inequality/equality constraints for ξ and εₚ during training
+
+
+## Installation
+Python 3.10 or newer is recommended.
+
+
+## Citation
+If you use this code or model in your research, please cite our work  
+(citation details to be added upon publication).
