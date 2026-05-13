@@ -33,5 +33,4 @@ Python 3.10 or newer is recommended.
 
 
 ## Citation
-If you use this code or model in your research, please cite our work  
-(citation details to be added upon publication).
+If you use this code or model in your research, please cite our work.
